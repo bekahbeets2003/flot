@@ -1,4 +1,10 @@
 An issue I ran into was the chart was showing perfectly in IE and Chrome, but not in Firefox. 
 
-We had some code that dealt with formatting in the tickFormatter and we relied on .innerText, but Firefox uses .textContent. This was causing the chart to not appear. 
+We had some code that dealt with formatting in the tickFormatter and we relied on .innerText, but Firefox uses .textContent.
+This was causing the chart to not appear. 
+
+http://stackoverflow.com/questions/24427621/innertext-vs-innerhtml-vs-label-vs-text-vs-textcontent-vs-outertext
+http://perfectionkills.com/the-poor-misunderstood-innerText/
+http://www.kellegous.com/j/2013/02/27/innertext-vs-textcontent/
+
 
