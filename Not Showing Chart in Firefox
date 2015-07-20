@@ -1,0 +1,4 @@
+An issue I ran into was the chart was showing perfectly in IE and Chrome, but not in Firefox. 
+
+We had some code that dealt with formatting in the tickFormatter and we relied on .innerText, but Firefox uses .textContent. This was causing the chart to not appear. 
+
